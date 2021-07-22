@@ -20,7 +20,7 @@ There are thousands of possible combinations of these values. It would be  diffi
 
 See **[doc/pict.md](https://github.com/Microsoft/pict/blob/master/doc/pict.md)** for detailed documentation on PICT and http://pairwise.org has details on this testing methododology. 
 
-The most recent **pict.exe** is available at http://www.pairwise.org/pict/win/pict.exe.
+The most recent **pict.exe** is available at https://github.com/microsoft/pict/releases/download/release/pict.exe.
 
 # Contributing
 
@@ -32,7 +32,7 @@ PICT consists of the following projects:
  * **clidll-usage**: A sample of how the PICT DLL is to be used.
 
 ## Building and testing on Windows with MsBuild
-Use **pict.sln** to open the solution in Visual Studio 2017. You will need VC++ build tools installed. See https://www.visualstudio.com/downloads/ for details.
+Use **pict.sln** to open the solution in Visual Studio 2019. You will need VC++ build tools installed. See https://www.visualstudio.com/downloads/ for details.
 
 PICT uses MsBuild for building. **_build.cmd** script in the root directory will build both Debug and Release from the command-line.
 
